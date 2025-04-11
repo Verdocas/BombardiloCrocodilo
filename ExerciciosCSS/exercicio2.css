@@ -1,0 +1,42 @@
+.head {
+    color: blue;
+}
+
+.content {
+    color: rgb(101, 148, 55);
+    font-size: large;
+}
+
+div {
+    background-color: rgb(222, 178, 66);
+    text-align: center;
+    color: #fff;
+    padding: 1px;
+  
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.lorum {
+    background-color: black;
+    color:white
+}
+
+div h2 {
+    color: #fff;
+}
+
+section h2+p {
+    font-size: 30px;
+
+}

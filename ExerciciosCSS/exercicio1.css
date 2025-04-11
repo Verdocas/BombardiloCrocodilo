@@ -1,0 +1,39 @@
+h1{
+    font-size: 45px;
+    color: cadetblue;
+}
+
+#porre {
+    font-size: 55px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 65px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.content{
+    font-size: 45px;
+    font-family: Underdog;
+
+    color: #fff;
+    text-transform: capitalize;
+    padding-left: 1%;
+}
+
+#Header {
+    background-color: blue;
+}
+
+.produtos {
+    background-color: brown
+}
+
+a {
+    font-size: 49px;
+    text-decoration: none;
+    color: rgb(35, 191, 76);
+}
+
