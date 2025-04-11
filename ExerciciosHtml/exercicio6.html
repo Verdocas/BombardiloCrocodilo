@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 6</title>
+</head>
+<body>
+    <form action="serivdor.php" method="post">
+    <fieldset>
+        <legend><b>Formulário de contacto Bytes</b></legend>
+        <label for="Nm">Nome:</label>
+        <input type="text" name="Nome" id="Nm" placeholder="insira o seu nome aqui">
+        <br>
+        <label for="Em">Email:</label>
+        <input type="email" name="Email" id="Em" placeholder="lorem.ipsum01@outlook.pt">
+
+        <p></p>
+
+        <legend>Género:</legend>
+        <input type="radio" name="Género" id="masc">
+        <label for="masc">Masculino</label>
+
+        <input type="radio" name="Género" id="fem">
+        <label for="fem">Feminino</label>
+
+        <p></p>
+
+        <label for="DT">Data atual:</label>
+        <input type="date" id="DT" name="DataAtual">
+        
+
+        <p></p>
+
+        <label for="T">Turma:</label>
+
+        <select name="Turma" id="T">
+            <option disabled selected value="select">Selecione uma turma</option>
+            <option value="A">A (Manhã)</option>
+            <option value="B">B (Tarde)</option>
+        </select>
+
+        <P></P>
+
+        <label for="bx">Mensagem</label>
+        <textarea name="caixaTexto" id="bx" placeholder="deixe aqui um comentário"></textarea>
+
+        <p></p>
+
+        <button type="reset">Limpar</button>
+        <input type="submit" value="Enviar">
+
+        
+
+    </fieldset>
+    </form>
+</body>
+</html>
