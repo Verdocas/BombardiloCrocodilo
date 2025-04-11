@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="servidor.php" method="post">
+        <p></p><label for="corFav">Cor favorita</label>
+        <input type="text" name="cor favorita" id="corFav" placeholder="qualé"> 
+
+        <p></p>
+
+        <label for="aniFav">Animal favorito</label>
+        <input type="text" name="Animal favorito" id="aniFav" placeholder="qualé"> 
+
+        <p></p>
+
+        <label for="comFav">comida favorita</label>
+        <input type="text" name="comida favorita" id="comFav" placeholder="qualé"> 
+
+        <p></p>
+
+        <label for="DTPR">Data de preenchimento</label>
+        <input type="date" name="Data de preenchimento" id="DTPR"> 
+        
+        <p></p>
+
+        <label for="psswrd">Password</label>
+        <input type="password">
+        
+    <fieldset>
+        <legend>Género</legend>
+        <input type="radio" name="Género" id="homo" value="Homem"> 
+        <label for="homo">Homem</label>
+
+        <input type="radio" name="Género" id="mlhr" value="Mulher">
+        <label for="mlhr">Mulher</label>
+
+        <input type="radio" name="Género" id="indef" value="prefiro não dizer">
+        <label for="indef">prefiro não dizer</label>
+         
+    </fieldset>
+
+    <fieldset>
+        <legend>Paises favoritos</legend>
+        <input type="checkbox" name="burkina-faso" id="BF"> 
+        <label for="BF"> burkina-faso </label>
+
+        <input type="checkbox" name="romenia" id="RM">
+        <label for="RM">Romenia</label>
+
+        <input type="checkbox" name="Cazaquistão" id="CZ">
+        <label for="CZ">Cazaquistão</label>
+         
+    </fieldset>
+
+    <p></p>
+
+    <button type="reset">Não acredito em fronteiras</button>
+
+    <p></p>
+
+    <input type="submit" value="chuta paqui">
+        
+    </form>
+</body>
+</html>
