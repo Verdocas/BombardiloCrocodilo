@@ -1,0 +1,22 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "one two" "three two";
+    gap: 1rem;
+}
+
+div {
+    padding:1%;
+}
+div:nth-child(1) {
+    background-color: blue;
+    grid-area: one;
+}
+div:nth-child(2) {
+    background-color: rgb(0, 255, 34);
+    grid-area: two;
+}
+div:nth-child(3) {
+    background-color: rgb(255, 179, 0);
+    grid-area: three;
+}

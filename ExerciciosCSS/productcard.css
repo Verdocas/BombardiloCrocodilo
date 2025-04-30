@@ -1,0 +1,55 @@
+div {
+    border: 1px solid rgb(160, 157, 157);
+    border-radius: 10px;
+    width:100%;
+
+}
+
+#prdctImg {
+    border-radius: 20px;
+    width: 98%;
+    padding: 10px;
+    
+}
+
+.slashed {
+    text-decoration:line-through;
+    font-family: var(--hdng-fnt);
+    font-size: smaller;
+    color: rgb(62, 56, 56);
+}
+
+.nwprc {
+    font-size: xx-large;
+    font-family: var(--hdng-fnt);
+    margin-bottom: 20px;
+}
+
+.prdct {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.wrapper {
+
+    width: 100%;
+    border: none;
+
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--hdng-fnt);
+    font-size: large;
+
+}
+
+:root {
+    /*fonts*/
+    --hdng-fnt: sans-serif
+}

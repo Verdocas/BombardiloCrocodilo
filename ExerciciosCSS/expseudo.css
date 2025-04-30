@@ -1,0 +1,86 @@
+button {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: darkred;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: indianred;
+
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    
+}
+
+.nav:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size:medium;
+}
+
+header {
+    background-color: var(--primary-clr);
+    padding: 1%;
+    border: red 2px solid;
+    margin: 10px;
+}
+
+#h1sub {
+    font-size: larger;
+}
+
+.navbar {
+    text-align: right;
+}
+
+li:nth-child(3) {
+    color: red;
+}
+
+.box {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1px;
+    width: 300px;
+    text-align: center;
+}
+
+#Y {
+    margin-right: 20px;
+}
+
+.Wrapper {
+    border: 2px dotted rgb(255, 30, 0);
+    margin: 5px;
+}
+
+body {
+    background-image: url("../img/20190917_apresentacao\ da\ Arma\ Ligeira\ do\ Exercito.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+:root {
+    
+    /* colors */
+    /* checkar o header */
+    --primary-clr: #555;
+    --bg-clr-hvr: #f222f2
+
+}
+
+#goof:hover {
+    background-color: var(--bg-clr-hvr);
+}
+
+* {
+    box-sizing: border-box;
+    
+}
